@@ -5,8 +5,8 @@ namespace GenericFindMax
     {
         static void Main(string[] args)
         {
-            FindMaxFloat findMaxfloat = new FindMaxFloat();
-            findMaxfloat.MaximumFloat(21.3, 4.5, 6.7);
+            FindMaxString findMaxstring = new FindMaxString();
+            findMaxstring.MaximumString("Raju", "rajuuu", "rajuu" );
         }
     }
 }
