@@ -5,8 +5,13 @@ namespace GenericFindMax
     {
         static void Main(string[] args)
         {
-            FindMaxString findMaxstring = new FindMaxString();
-            findMaxstring.MaximumString("Raju", "rajuuu", "rajuu" );
+            FindMaximum<int>findint=new FindMaximum<int>();
+            findint.Maximum(10, 20, 30);
+            FindMaximum<double>finddouble=new FindMaximum<double>();
+            finddouble.Maximum(10.12, 20.22, 30.22);
+            FindMaximum<string> findstring = new FindMaximum<string>();
+            findstring.Maximum("lakhan", "zakir", "ramuu");
+
         }
     }
 }
